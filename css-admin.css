@@ -1,0 +1,49 @@
+#wazala_logo {
+	background: transparent url(images/wazala_logo.png) no-repeat;
+	width:215px;
+	height:57px;
+}
+
+.wazalaform {
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	background-color:#F1F1F1 !important;
+	border:1px solid;
+	border-color:#E3E3E3;
+	overflow: hidden;
+}
+
+#wazala_widget_fixed_width_ch {
+	float:left;
+	width:auto;
+}
+#wazala_widget_fixed_width {
+	width:70px;
+}
+
+
+form div.input {float:left}
+form div.form-field  span.selectbox select {padding:1px !important;vertical-align:middle !important;}
+form div.form-field  span.radio_group input {height: 13px; margin: 0px 5px 0px 2px; width:13px;}
+form div.form-field  span.radio_group label {float: left; line-height: 30px; padding-right: 15px; white-space: nowrap;}
+form div.inside		 span.radio_group label {float: left; line-height: 30px; margin: 6px; padding-right: 12px; white-space: nowrap;}
+
+
+form p.submit a.button  {font-style:normal !important;}
+form p.add  {font-style:normal; padding:12px 0 0; text-align: right;}
+table.form-table td input {width:auto;}
+
+.button-warning:hover {background:#CE0000 none repeat scroll 0 0; color:#FFFFFF;}
+.button {margin: 1px !important}
+.button-primary {margin: 1px !important; padding: 3px 10px !important}
+
+
+/* Publish Styles */
+#minor-publishing {
+	padding:6px;
+	text-align:center;
+}
+#minor-publishing label {display:inline;}
+.updated {
+	margin-top:15px !important;
+}
