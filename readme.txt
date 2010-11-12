@@ -51,6 +51,9 @@ Finally, you will need to configure Wazala from "Wazala Configuration" page in "
 
 == Changelog ==
 
+= 1.0.1 =
+* Improved configuration screen layout
+
 = 1.0 =
 * Initial Release.
 
