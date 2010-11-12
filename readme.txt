@@ -1,12 +1,12 @@
-=== Wazala Ecommerce Store ===
+=== Wazala Ecommerce Store & Shopping Cart ===
 Contributors: Wazala
 Donate link: http://www.wazala.com/
-Tags: store, shop, cart, e-commerce, products, sale, widget, online
+Tags: store, shop, cart, e-commerce, products, sale, widget, online, shopping cart
 Requires at least: 2.0.2
-Tested up to: 3.0
+Tested up to: 3.0.1
 Stable tag: 4.3
 
-Add a "store" button to your blog, your store will simply pop-up over your content -- no more sending your customers elsewhere to make a purchase.
+Build a new store or just add a "store" to your blog, your store will simply pop-up over your content -- no more sending your customers elsewhere to make a purchase.
 
 == Description ==
 
@@ -51,9 +51,7 @@ Finally, you will need to configure Wazala from "Wazala Configuration" page in "
 
 == Changelog ==
 
-= 1.0.1 =
-* Improved configuration screen layout
-
 = 1.0 =
 * Initial Release.
-
+= 1.0.1 =
+* Changes to settings page.

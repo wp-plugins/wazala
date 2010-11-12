@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Wazala Ecommerce Store
+Plugin Name: Wazala Ecommerce Store & Shopping Cart
 Plugin URI: http://www.wazala.com/
 Description: Add a "store" to your blog, your store will simply pop-up over your content, no more sending your customers elsewhere to make a purchase. Configure from <a href="plugins.php?page=wazala.php">Wazala Configuration</a> page.
 Version: 1.0.1
