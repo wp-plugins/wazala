@@ -48,6 +48,12 @@ Finally, you will need to configure Wazala from "Wazala Configuration" page in "
 == Frequently Asked Questions ==
 [FAQs can be found here](http://www.wazala.com/support/)
 
+== Screenshots ==
+
+1. Wazala store overlying your own website
+2. Wazala Store Manager weekly sales
+3. Wazala Store builder and customizer
+
 
 == Changelog ==
 
