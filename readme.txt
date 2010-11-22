@@ -10,6 +10,8 @@ Build a new store or just add a "store" to your blog, your store will simply pop
 
 == Description ==
 
+Wazala is a hosted ecommerce and shopping cart solution. This plugin facilitates the integration of your Wazala store within your WordPress blog. You will need a Wazala store account to integrate with your WordPress website. Wazala is easy to manage and brilliant to look at. Go ahead read some more about what we have to offer.
+
 Seamlessly and elegantly super- imposes on your website
 Wazala adds a simple and beautiful store button to your website, when clicked the customer is immersed into a very engaging and fluid shopping experience right within your own site.
 
@@ -38,6 +40,8 @@ Wazala adapts and reacts to your growing store needs
 Wazala can grow with you. If you are starting with a few products or growing with tens or hundreds of products, Wazala will scale and deliver on the performance you need to help you grow. 
 
 == Installation ==
+
+First you will need a Wazala store account to integrate with your WordPress website. Just go to http://www.wazala.com/ to learn more. Once you have your Wazala store account, you will need your Wazala store nickname from your Wazala account page to activate your WordPress plugin.
 
 You can download and install Wazala using the built in WordPress plugin installer. If you download Wazala manually, make sure it is uploaded to "/wp-content/plugins/wazala/".
 
