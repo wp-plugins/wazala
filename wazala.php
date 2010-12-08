@@ -3,7 +3,7 @@
 Plugin Name: Wazala Ecommerce Store & Shopping Cart
 Plugin URI: http://www.wazala.com/
 Description: Add a "store" to your blog, your store will simply pop-up over your content, no more sending your customers elsewhere to make a purchase. Configure from <a href="plugins.php?page=wazala.php">Wazala Configuration</a> page.
-Version: 1.0.1
+Version: 1.0.2
 Author: Wazala
 Author URI: http://www.wazala.com/
 
@@ -263,6 +263,15 @@ function wazala_conf() {
 		<h2><?php _e('Wazala Widget Configuration'); ?></h2>	
 		<?php echo $savedNotif;?>
 		<div class="clear"><!-- --></div>		
+
+		<ul>
+			<li><strong>Step 1.</strong> Signup for your Wazala account at <a href="http://www.wazala.com/" target="_blank">http://www.wazala.com/</a>, signing up is easy and only takes you a few minutes. Setting up a Wazala store will allow you to publish your store to your WordPress blog, facebook business pages, your own website or social profile. </li>
+
+			<li><strong>Step 2.</strong> Once you have signed up for your account and configured your store, enter your Wazala store nickname in the edit box below. Your store nick name is the first part of your wazala store url, nickname.wazala.com. It is alphanumeric and can not have spaces or punctuations. </li>
+
+			<li><strong>Step 3.</strong> Select the default language you want your store to start with. Your customers can optionally change the store language from the shopping cart interface. You may also select the location of the store button or just hide it and call a simple <a href="http://wazala.zendesk.com/entries/243667-how-can-i-add-a-custom-button-to-open-the-store-to-a-specific-page" target="_blank">JavaScript</a> to open it any time from any object , link or image on your website.</li>
+		</ul>
+
 		<div class="form-wrap" style="width:800px;margin:0 auto;">		
 		<div class="has-right-sidebar metabox-holder">
 			<form action="" method="post">			
