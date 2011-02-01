@@ -68,3 +68,5 @@ Finally, you will need to configure Wazala from "Wazala Configuration" page in "
 * Changes to settings page.
 = 1.0.2 =
 * Added installation instructions to "Plugin Configuration Screen"
+= 1.0.3 =
+* Configuration screen improvements
