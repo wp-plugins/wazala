@@ -3,7 +3,7 @@
 Plugin Name: Wazala Ecommerce Store & Shopping Cart
 Plugin URI: http://www.wazala.com/
 Description: Add a "store" to your blog, your store will simply pop-up over your content, no more sending your customers elsewhere to make a purchase. Configure from <a href="plugins.php?page=wazala.php">Wazala Configuration</a> page.
-Version: 1.0.2
+Version: 1.0.3
 Author: Wazala
 Author URI: http://www.wazala.com/
 
@@ -80,7 +80,8 @@ function wp_wazala_init() {
 		$storeWidgetOptions['nickname'] = $nickName;
 		$placement = get_option('wazala_widget_placement');
 		$storeWidgetOptions['placement'] = $placement;
-		if($placement != 'hidden') {			
+		if($placement != 'hidden') {
+			$storeWidgetOptions['touch_button'] = get_option('wazala_widget_touch_button');
 			$storeWidgetOptions['label'] = get_option('wazala_widget_label');
 			$fixedWidth = get_option('wazala_widget_fixed_width');
 			if($fixedWidth) {
@@ -151,7 +152,7 @@ function wazala_admin_mainform() {
 					<div id="wazala_manual_conf">
 						<div style="float:left;width:45%;margin-right:5%;">
 							<label for="wazala_widget_nickname"><?php _e('Wazala nick name:'); ?></label>
-							<input type="text" size="20" name="wazala_widget_nickname" id="wazala_widget_nickname" value="<?php echo get_option('wazala_widget_nickname'); ?>" />
+							<input type="text" style="width:120px;" name="wazala_widget_nickname" id="wazala_widget_nickname" value="<?php echo get_option('wazala_widget_nickname'); ?>" />.wazala.com
 						</div>
 						<div style="float:left;width:50%;">
 							<label for="wazala_widget_lg"><?php _e('Language:'); ?></label>
@@ -166,18 +167,8 @@ function wazala_admin_mainform() {
 							<select id="wazala_widget_placement" name="wazala_widget_placement" onchange="wazala_widget_placement_onChange();">
 								<?php wp_wazala_selectOptions('wazala_widget_placement', array('right'=>'Right', 'left'=>'Left', 'center'=>'Middle', 'hidden'=>'Hidden')); ?>
 							</select>
-						</div>
-						
-						<div style="float:left;width:50%;">
-							<div id="wazalaLabelField">
-								<label for="wazala_widget_label"><?php _e('Label:'); ?></label>
-								<select id="wazala_widget_label" name="wazala_widget_label" onchange="wazala_widget_label_onChange();">								
-								</select>
-							</div>
-						</div>
-						<div class="clear"><!-- --></div>
-						
-						<div style="float:left;width:45%;margin-right:5%;height:28px;">
+
+
 							<?php
 								$wazalaWidgetFixedWidth = get_option('wazala_widget_fixed_width') + 0;
 								if(!$wazalaWidgetFixedWidth) $wazalaWidgetFixedWidth = "";
@@ -189,14 +180,31 @@ function wazala_admin_mainform() {
 								<td width="60%"><input type="text" size="5" name="wazala_widget_fixed_width" id="wazala_widget_fixed_width" value="<?php echo $wazalaWidgetFixedWidth; ?>" /></td>
 							</tr>
 							</table>
-														
-							
-							
+
+							<div id="touch_button_c">
+								<label for="wazala_widget_touch_button"><?php _e('Wazala Touch Button:'); ?></label>
+								<select id="wazala_widget_touch_button" name="wazala_widget_touch_button" onchange="wazala_widget_placement_onChange();">
+									<?php wp_wazala_selectOptions('wazala_widget_touch_button', array('floating'=>'Floating', 'minimized'=>'Minimized')); ?>
+								</select>
+							</div>
+
 						</div>
+						
 						<div style="float:left;width:50%;">
-							<input type="text" size="15" name="wazala_widget_custom_label" id="wazala_widget_custom_label" value="" />
+							<div id="wazalaLabelField">
+								<label for="wazala_widget_label"><?php _e('Label:'); ?></label>
+								<select id="wazala_widget_label" name="wazala_widget_label" onchange="wazala_widget_label_onChange();">								
+								</select>
+							</div>
+
+							<div style="float:left;width:50%;">
+								<input type="text" size="15" name="wazala_widget_custom_label" id="wazala_widget_custom_label" value="" />
+							</div>
 						</div>
 						<div class="clear"><!-- --></div>
+						
+						
+						
 					</div>
 					
 					<br />
@@ -236,6 +244,8 @@ function wazala_conf() {
 			update_option('wazala_widget_nickname', strip_tags(stripslashes($_POST['wazala_widget_nickname'])));
 			update_option('wazala_widget_lg', strip_tags(stripslashes($_POST['wazala_widget_lg'])));
 			update_option('wazala_widget_placement', strip_tags(stripslashes($_POST['wazala_widget_placement'])));			
+			update_option('wazala_widget_touch_button', strip_tags(stripslashes($_POST['wazala_widget_touch_button'])));			
+			
 						
 			if ( isset($_POST['wazala_widget_fixed_width_ch']) && ($_POST['wazala_widget_fixed_width'] + 0) ) {
 				update_option('wazala_widget_fixed_width', $_POST['wazala_widget_fixed_width'] + 0);	
@@ -367,10 +377,12 @@ function wazala_conf() {
 					wazala_conf_getID("wazalaLabelField").style.display = "none";
 					wazala_conf_getID("wazala_widget_custom_label").style.display = "none";
 					wazala_conf_getID("fixedWidthField").style.display = "none";
+					wazala_conf_getID("touch_button_c").style.display = "none";
 				}
 				else {
 					wazala_conf_getID("wazalaLabelField").style.display = "";
 					wazala_conf_getID("wazala_widget_custom_label").style.display = "";
+					wazala_conf_getID("touch_button_c").style.display = "";
 					
 					if(v == "center") {
 						wazala_conf_getID("fixedWidthField").style.display = "none";
