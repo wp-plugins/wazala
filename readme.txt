@@ -50,16 +50,7 @@ Wazala can grow with you. If you are starting with a few products or growing wit
 
 First you will need a Wazala store account to integrate with your WordPress website. Just go to http://www.wazala.com/ to learn more and sign up. Once you have your Wazala store account, you can follow the steps in this video to integrate Wazala into your WordPress site.
 
-<object id="player" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" name="player" width="780" height="462"> 
-	<param name="movie" value="http://www.wazala.com/videos/player.swf"> 
-	<param name="allowfullscreen" value="true"> 
-	<param name="allowscriptaccess" value="always">
-	<param name="flashvars" value="file=http://www.wazala.com/videos/help/wordpress.mp4"> 
-	<embed type="application/x-shockwave-flash" id="player2" name="player2" src="http://www.wazala.com/videos/player.swf" width="780" height="462" allowscriptaccess="always" allowfullscreen="true" flashvars="file=http://www.wazala.com/videos/help/wordpress.mp4&amp;autostart=false"> 
-</object>
-
-
-You can also visit <a href="http://www.wazala.com/start/help/wazala-store-on-wordpress/">this page</a> for detailed instructions.
+You can also visit http://www.wazala.com/start/help/wazala-store-on-wordpress/ for detailed instructions.
 
 
 == Screenshots ==
