@@ -1,6 +1,5 @@
 === Wazala Ecommerce Store & Shopping Cart ===
 Contributors: Wazala
-Donate link: http://www.wazala.com/
 Tags: store, shop, cart, e-commerce, products, ecommerce, online store, widget, shopping cart, sell downloads, sell music
 Requires at least: 2.0.2
 Tested up to: 3.8
