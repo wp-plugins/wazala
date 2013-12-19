@@ -3,7 +3,7 @@ Contributors: Wazala
 Donate link: http://www.wazala.com/
 Tags: store, shop, cart, e-commerce, products, sale, widget, online, shopping cart
 Requires at least: 2.0.2
-Tested up to: 3.5.1
+Tested up to: 3.8
 Stable tag: 4.3
 
 Build a new store or just add a "store" to your blog, your store will simply pop-up over your content -- no more sending your customers elsewhere to make a purchase.
