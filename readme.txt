@@ -1,35 +1,37 @@
 === Wazala Ecommerce Store & Shopping Cart ===
 Contributors: Wazala
 Donate link: http://www.wazala.com/
-Tags: store, shop, cart, e-commerce, products, sale, widget, online, shopping cart
+Tags: store, shop, cart, e-commerce, products, ecommerce, online store, widget, shopping cart, sell downloads, sell music
 Requires at least: 2.0.2
 Tested up to: 3.8
 Stable tag: 4.3
 
-Build a new store or just add a "store" to your blog, your store will simply pop-up over your content -- no more sending your customers elsewhere to make a purchase.
+Build an online store or just add a “shopping cart” to your blog, with Wazala both are possible -- No more sending your customers elsewhere to make a purchase, the entire experience stays within your site. 
 
 == Description ==
 
-Adding an online store to any WordPress theme has never been easier. Sell online effortlessly and beautifully with Wazala.
+Adding an online store to any WordPress theme has never been easier. Sell online effortlessly and beautifully with Wazala eCommerce.
 
 Wazala is a hosted ecommerce and shopping cart solution that can be added to multiple sites, blogs and Facebook all while managing one backend.
 
-This plugin facilitates the integration of your Wazala store within your WordPress blog. You will need a Wazala store account - you can sign up here http://www.wazala.com - Wazala is easy to manage and brilliant to look at. Plug it in once and get all future releases automatically. Go ahead read some more about what we have to offer.
+This plugin facilitates the integration of Wazala within your WordPress blog. You will need a Wazala store account to use it - you can sign up here http://www.wazala.com. 
+
+Wazala is easy to manage and brilliant to look at. Plug it in once and get all future releases automatically. Go ahead read some more about what we have to offer.
 
 Seamlessly and elegantly super-imposes on your website
-The basic integration of Wazala adds a store button to your website. When clicked the customer is immersed into a very engaging and fluid shopping experience right within your own site. Other options include the use of Add to Cart buttons as well as embedding the store into a page within your site.
+The basic integration of Wazala adds a store button to your website. When clicked the customer is immersed into a very engaging and fluid shopping experience right within your own site. Other options include the use of Add to Cart buttons as well as embedding the store into a page within your site, or using a custom domain name redirect to our hosted store page.
 
 Sell physical and digital products from the same store
 With Wazala you can sell hard goods and digital products within the same store. Set up shipping calculations for your tangibles and Wazala will take care of digital delivery of your digital goods. Sell pictures, designs, music, t-shirts, and even your services!
 
 Receive payments through most widely used payment platforms
-Wazala is integrated with Paypal and Google Checkout the two most widely used payment platforms for accepting credit cards and online payment for stores and ecommerce platforms.
+Wazala integrates with with Stripe, Authorize.net and all Paypal options. These widely used payment platforms allows you to accept credit cards and online payments within your website and not direct customers elsewhere to pay.
 
 Wazala is not just ecommerce, it's mobile commerce
-Wazala includes a mobile web browser optimized store, complete with touch and gesture based product browsing and shopping. Just browse to wazala.com on your iPhone or Android device and check out Wazala Touch the mobile commerce experience of Wazala.
+Wazala includes a mobile web browser optimized store, complete with touch and gesture based product browsing and shopping. Just browse to http://wazala.wazala.com/ on your iPhone or Android device and check out Wazala Touch the mobile commerce experience of Wazala.
 
 Wazala's look and feel simply works with any site design
-We designed Wazala to allow a seamless integration with any website. So no matter what WP theme you are using Wazala will allow for a compatible look with your existing site design.
+We designed Wazala to allow a seamless integration with any website. So no matter what WP theme you are using Wazala will allow for a compatible look with your existing site design. You can also edit the layout of your store without any coding knowledge! No need for CSS or HTML! 
 
 Critical inventory information at your figure tips
 If you need to track inventory you can with our simple and straight forward inventory management options. We can also alert you when you are getting low on certain products.
@@ -56,12 +58,12 @@ You can also visit http://www.wazala.com/start/help/wazala-store-on-wordpress/ f
 == Screenshots ==
 
 1. Wazala store overlying your own website
-2. Wazala Store Manager weekly sales
-3. Wazala Store builder and customizer
+2. Wazala Store Manager 
+3. Wazala Store widget admin
 
 
 == Frequently Asked Questions ==
-Want to know more about Wazala or how it works? We've got a forum full of FAQ's you may wish to browse at http://www.wazala.com/support/ or simply email the folks at support@wazala.com they would love to help out.
+Want to know more about Wazala or how it works? We've got a forum full of FAQ's you may wish to browse at http://support.wazala.com or simply email the folks at support@wazala.com they would love to help out.
 
 
 == Changelog ==
