@@ -2,7 +2,7 @@
 Contributors: Wazala
 Tags: store, shop, cart, e-commerce, products, ecommerce, online store, widget, shopping cart, sell downloads, sell music
 Requires at least: 2.0.2
-Tested up to: 4.1.1
+Tested up to: 4.2
 Stable tag: 4.3
 
 Build an online store or just add a “shopping cart” to your blog, with Wazala both are possible -- No more sending your customers elsewhere to make a purchase, the entire experience stays within your site. 
